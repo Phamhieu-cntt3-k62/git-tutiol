@@ -1,0 +1,50 @@
+/* nav{
+    tag as containter;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 85%;
+    margin: 0 auto;
+    background-color: #cccccc;
+}
+nav#topmenu ul{
+    list-style-type: none;
+    background-color: #444;
+    text-align: center;
+}
+nav#topmenu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+}
+nav#topmenu li{
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 60px;
+}
+nav#topmenu li:hover{
+    background-color:red;
+    
+}
+.head{
+    /* padding: 10px 10px 0 10px; */
+    font-size: 28px;
+    line-height: 60px;
+}
+.italic_text{
+    font-style: italic;
+    /* padding: 10px; */
+    line-height: 50px;
+}
+.end_text{
+    
+    font-size: 24px;
+}
+.footer{
+    background-color: #444;
+    text-align: center;
+    color: white;
+}
